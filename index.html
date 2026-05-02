@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -52,7 +51,8 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#" data-nav-section="explore"><span><strong>Quem Somos</strong></span></a></li>
 						<li><a href="#" data-nav-section="services"><span><strong>Atividades Realizadas</strong></span></a></li>
-						<li><a href="#" data-nav-section="fh5co-footer"><span><strong>Fale Conosco</strong></span></a></li>
+						<li><a href="#" data-nav-section="acervo"><span><strong>Reserva de Livros</strong></span></a></li>
+						<li><a href="#" data-nav-section="fh5co-footer"><span><strong>Fale Conosco</strong></span></a></li>						
 					</ul>
 				</div>
 			</nav>
@@ -106,9 +106,16 @@
 					</div>
 					<div class="col-md-4 col-md-pull-8 to-animate-2">
 						<div class="mt">
-							<h3><strong>Nosso propósito é promover o acesso à leitura, à arte e à cultura como ferramentas de transformação social.
-							A Biblioteca do Tambor atua para fortalecer o senso de pertencimento, valorizar a memória local e incentivar o protagonismo da comunidade, acreditando que a educação e a cultura são caminhos para a liberdade e a cidadania.<br> </strong></h3>
-							
+							<h3><strong>Propósitos<br> </strong></h3>
+							<ul class="list-nav">
+								<li><i class="icon-check2"></i><strong>Leitura</strong></li>
+								<li><i class="icon-check2"></i><strong>Cultura</strong></li>
+								<li><i class="icon-check2"></i><strong>Transformação</strong></li>
+								<li><i class="icon-check2"></i><strong>Inclusão</strong></li>
+								<li><i class="icon-check2"></i><strong>Diversidade</strong></li>
+								<li><i class="icon-check2"></i><strong>Coletividade</strong></li>
+								<li><i class="icon-check2"></i><strong>Pertencimento</strong></li>
+							</ul>
 						</div>
 					</div>
 					
@@ -271,6 +278,66 @@
 	</section>	
 
 	
+<section id="fh5co-acervo" data-section="acervo" style="padding: 7em 0; background: #f9f9f9;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Reserva de Livros</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                        <h3>Selecione um título e reserve agora via WhatsApp.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 to-animate">
+                <div class="form-group">
+                    <label for="selecao-livro">Escolha o Livro:</label>
+                    <select id="selecao-livro" class="form-control">
+                        <option value="">-- Selecione um título --</option>
+                        <option value="1984">1984</option>
+                        <option value="A Hora da Estrela">A Hora da Estrela</option>
+                        <option value="A Menina que Roubava Livros">A Menina que Roubava Livros</option>
+                        <option value="A Revolução dos Bichos">A Revolução dos Bichos</option>
+                        <option value="Admirável Mundo Novo">Admirável Mundo Novo</option>
+                        <option value="Capitães da Areia">Capitães da Areia</option>
+                        <option value="Cem Anos de Solidão">Cem Anos de Solidão</option>
+                        <option value="Crime e Castigo">Crime e Castigo</option>
+                        <option value="Dom Casmurro">Dom Casmurro</option>
+                        <option value="Dom Quixote">Dom Quixote</option>
+                        <option value="Ensaio sobre a Cegueira">Ensaio sobre a Cegueira</option>
+                        <option value="Fahrenheit 451">Fahrenheit 451</option>
+                        <option value="Grande Sertão: Veredas">Grande Sertão: Veredas</option>
+                        <option value="Harry Potter">Harry Potter</option>
+                        <option value="Iracema">Iracema</option>
+                        <option value="Macunaíma">Macunaíma</option>
+                        <option value="Memórias Póstumas">Memórias Póstumas</option>
+                        <option value="O Alquimista">O Alquimista</option>
+                        <option value="O Amor nos Tempos do Cólera">O Amor nos Tempos do Cólera</option>
+                        <option value="O Cortiço">O Cortiço</option>
+                        <option value="O Guarani">O Guarani</option>
+                        <option value="O Hobbit">O Hobbit</option>
+                        <option value="O Pequeno Príncipe">O Pequeno Príncipe</option>
+                        <option value="O Processo">O Processo</option>
+                        <option value="O Retrato de Dorian Gray">O Retrato de Dorian Gray</option>
+                        <option value="Os Miseráveis">Os Miseráveis</option>
+                        <option value="Quarto de Despejo">Quarto de Despejo</option>
+                        <option value="Sagarana">Sagarana</option>
+                        <option value="Senhora">Senhora</option>
+                        <option value="Vidas Secas">Vidas Secas</option>
+                    </select>
+                </div>
+				<div class="form-group">
+					<a id="botao-reserva" class="btn btn-primary btn-block" href="https://wa.me/5583998752323" target="_blank">
+						RESERVAR VIA WHATSAPP
+					</a>
+				</div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 	<div id="fh5co-footer" role="contentinfo" data-section="fh5co-footer">
 		<div class="container">
@@ -298,10 +365,7 @@
 					
 				</div>
 		</div>
-		
-
-		 
-			<!-- jQuery -->
+				<!-- jQuery -->
 				<script src="js/jquery.min.js"></script>
 					<!-- jQuery Easing -->
 						<script src="js/jquery.easing.1.3.js"></script>
@@ -320,5 +384,27 @@
 							
 					
 
+<script>
+$(function() {
+	var botao = $('#botao-reserva');
+	if (!botao.length) return;
+
+	botao.on('click', function(event) {
+		var livroEscolhido = $('#selecao-livro').val();
+
+		if (!livroEscolhido) {
+			alert('Por favor, selecione um livro na lista!');
+			event.preventDefault();
+			return;
+		}
+
+		var telefone = '5583998752323';
+		var mensagem = encodeURIComponent('Olá! Gostaria de reservar o livro: ' + livroEscolhido);
+		var whatsappUrl = 'https://wa.me/' + telefone + '?text=' + mensagem;
+		this.href = whatsappUrl;
+		window.location = whatsappUrl;
+	});
+});
+</script>
 	</body>
 </html>
